@@ -1,0 +1,2 @@
+<%= turbo_stream.prepend "rooms", partial: "rooms/room", locals: {room: @room} %>
+<%= turbo_stream.update Room.new %>
